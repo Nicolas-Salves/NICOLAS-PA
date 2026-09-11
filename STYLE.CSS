@@ -21,4 +21,12 @@ body {
 body::before, body::after {
     /*cria os efeitos de luz no fundoo*/
     content: '';
+
+}
+
+body::before {
+    /*Posiciona a luz vermelha*/
+    background: #dc2625;
+    top: 20%;
+    left: 25%;
 }
