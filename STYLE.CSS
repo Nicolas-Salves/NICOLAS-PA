@@ -20,5 +20,5 @@ body {
 
 body::before, body::after {
     /*cria os efeitos de luz no fundoo*/
-
+    content: '';
 }
